@@ -23,7 +23,7 @@ The lab testing environment was constructed using VirtualBox running a Kali Linu
 
 ## 3. Vulnerability Findings & Proof of Concept (PoC)
 
-### 3.1 Finding 1: SQL Injection (SQLi) — OWASP A03:2021
+### 3.1 Finding 1: SQL Injection (SQLi) OWASP A03:2021
 SQL Injection occurs when user input is directly concatenated into a database query string without proper sanitization or parameterization.
 
 * **Tested Section:** SQL Injection tab in DVWA
@@ -39,7 +39,7 @@ The single quote `'` closed the original parameter string, while `OR '1'='1'` cr
 
 ---
 
-### 3.2 Finding 2: Reflected Cross-Site Scripting (XSS) — OWASP A03:2021
+### 3.2 Finding 2: Reflected Cross-Site Scripting (XSS)  OWASP A03:2021
 Reflected XSS occurs when an application receives user input in an HTTP request and includes that input in the immediate HTML response without sanitization or escaping.
 
 * **Tested Section:** XSS (Reflected) tab in DVWA
